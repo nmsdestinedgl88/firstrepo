@@ -117,6 +117,7 @@ Headline: *Forgot Why You Walked Into the Room?* Blurb and five bullets as print
 - [ ] Re-render the cover art at 4K and rebuild the wrap
 - [ ] Confirm print cost and royalty in KDP's calculator
 - [ ] Confirm the three categories and add 7 keywords
-- [ ] Have a qualified person fact-check the Sources page and the doctor page
+- [x] Bibliographic details of the 11 cited sources checked against PubMed, publisher or university records (the 9 journal articles by search; the two books, Fogg 2020 and Schacter 2001, were not looked up)
+- [ ] Have a qualified person review the doctor page and the plain-language summaries of the studies
 - [ ] Order a KDP proof copy and check the greys and the spine
 - [ ] Produce a fixed-layout ebook file before listing the Kindle edition
