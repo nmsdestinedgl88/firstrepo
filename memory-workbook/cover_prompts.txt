@@ -1,0 +1,74 @@
+COVER PROMPTS: The 5-Minute Memory Workbook
+Cimple Books | www.cimpledigital.com/books | slug: memory-workbook
+
+BUILD ASSUMPTIONS (confirm or override before generating)
+- Format: paperback workbook (main product), KDP, black-and-white or colour interior (colour assumed for the cover only)
+- Trim: 8.5 x 11 in portrait (216 x 279 mm), for writing room
+- Printed pages: 128 (even), white paper
+- Barcode: KDP adds it (bottom-right of back cover)
+- Digital-only ebook edition uses the front cover only.
+
+======================================================================
+1. FRONT COVER
+======================================================================
+Expected filename: cover_memory-workbook.png
+Assigned cover style: #11 Workbook / Worksheet Style
+  (workbook with prompts, checkboxes and trackers; the cover echoes the interior)
+Fonts: Header = Caveat Bold (casual handwritten script, bold)
+       Body   = Nunito (rounded friendly sans-serif)
+
+PROMPT (paste into Nano Banana / Gemini):
+Design a workbook / worksheet style cover page for a workbook titled "The 5-Minute Memory Workbook", subtitled "Tiny Daily Habits for a Sharper, More Reliable Mind After 40". It should be 8.5 x 11 inches, portrait orientation. Use the following colors only: #30A666, #56CB87, #F3F9F5, #FFFFFF (plus a dark charcoal for small details and handwriting strokes only). The cover should fill the entire image - no background, no margins, no shadows, nothing else, just the cover page. The cover looks like a friendly, half-filled-in worksheet page: a pale #F3F9F5 paper background with faint ruled lines, a row of six neatly hand-drawn tick-boxes along the lower third with the first four ticked in #30A666, a small hand-drawn calendar strip, and a few simple hand-drawn doodles of a coffee cup, a pair of keys, a sticky note and a small lightbulb in #56CB87 and #30A666. Warm, practical, calm and encouraging, not clinical. Render the title in bold display lettering with the character of Caveat Bold - casual handwritten script, bold - large and highly legible, with the subtitle set in a style reminiscent of Nunito - rounded friendly sans-serif - in smaller text beneath it. The author is Cimple Books (small text, footer, in a style reminiscent of Nunito), and include the web address www.cimpledigital.com/books. Do not use any colors outside the palette given. No brain imagery, no medical or clinical imagery, no pills, no people, no stock-photo look, no watermarks, no extra text or icons beyond what's described, and make sure all rendered text is spelled correctly. Render at the highest resolution available (4K). Keep every piece of text at least 12 mm inside all four edges, and let the background and edge artwork continue all the way to every edge so nothing important is lost if 3 mm is trimmed from each side.
+
+======================================================================
+2. WRAP SPECIFICATION (KDP paperback defaults - CONFIRM in KDP's cover calculator)
+======================================================================
+Printer/platform: Amazon KDP paperback
+Pages: 128, white paper
+Spine width = 128 x 0.002252 in = 0.2883 in (7.32 mm)
+Bleed: 0.125 in (3.2 mm) on every outer edge
+Full wrap width = 2 x 8.5 + 0.2883 + 0.25 = 17.5383 in (445.5 mm) -> 5,261 px at 300 dpi
+Full wrap height = 11 + 0.25 = 11.25 in (285.8 mm) -> 3,375 px at 300 dpi
+Safe margin: 0.125 in inside every trim edge and both spine edges; keep text 0.25 in or more inside
+Barcode zone: 2 in x 1.2 in, bottom-right of back cover, 0.25 in from trim edges, left plain
+Front cover size check: an 8.5 x 11 in trim at 300 dpi needs about 2,550 x 3,300 px (about 2,675 x 3,425 px with bleed). A typical 4K render is likely a little short of that, so the file will probably be upscaled. The effective dpi will be reported honestly after the real file arrives.
+NOTE: the page count (128) is a plan. If the final built interior has a different page count, the spine width and wrap size are recomputed before the wrap is built.
+
+======================================================================
+3. BACK COVER (artwork only; no generated text)
+======================================================================
+Expected filename: cover_memory-workbook_back.png
+Reference image to attach when generating: the ACCEPTED front cover (cover_memory-workbook.png)
+
+PROMPT:
+Design the back cover of a workbook to match the attached front cover exactly: the same workbook / worksheet style illustration style, line weight, background and mood. It should be 8.5 x 11 inches, portrait orientation, rendered at the highest resolution available (4K). Use the following colors only: #30A666, #56CB87, #F3F9F5, #FFFFFF, plus the same dark charcoal for small details that the front cover used. The artwork should fill the entire image - no margins, no shadows, no mockup, just the flat back cover, with the background continuing to every edge. Add a quieter, supporting set of small hand-drawn doodles from the front cover's world (a tick-box, a tiny calendar, a sticky note) placed sparingly around the edges, fewer and smaller than on the front. Leave a large, clean, empty rounded panel in a single flat light color (#FFFFFF) covering roughly the central 70% of the width and the upper 60% of the height (text will be added later). Keep the bottom-right corner, an area about 2.3 in wide by 1.5 in tall, completely plain and light with no artwork (a barcode goes there). Keep every important element at least 0.4 in inside all four edges. No text, letters, numbers, logos, barcodes or watermarks anywhere. Do not use any colors outside the palette given.
+
+======================================================================
+4. SPINE
+======================================================================
+No upload expected. The spine is 7.32 mm, under the 12 mm threshold, so it is built at composite time as a flat band in the front cover's dominant background color (sampled from the accepted art, or the nearest palette hex).
+Spine text: allowed by KDP (128 pages is 80 or more). It will be typeset only if it fits at 6 pt or larger inside 0.0625 in margins (about 0.163 in of usable width), reading top to bottom: "The 5-Minute Memory Workbook" in Caveat Bold, and "Cimple Books" in Nunito. If it does not fit at 6 pt or larger, the spine carries no text.
+
+======================================================================
+5. BACK-COVER TEXT TO BE TYPESET (please correct the wording now)
+======================================================================
+Headline: Forgot Why You Walked Into the Room?
+Blurb:
+Misplaced keys. A name on the tip of your tongue. A week of "what was I about to do?" Everyday forgetfulness is common in midlife, and small, steady habits are a practical place to start.
+The 5-Minute Memory Workbook is a six-week programme of tiny daily habits you can fit around a busy life. Each week adds one simple routine, with prompts, trackers and "if this, then that" planners to help it stick. No memory palaces. No gimmicks. Just five minutes a day.
+Bullets (to be reconciled with the final contents before printing):
+- A 6-week plan: one tiny habit per week
+- A self-check at the start and the end, so you can see your own progress
+- Daily trackers and weekly reflection pages
+- Habit-stacking planners built around your real routine
+- A plain-language page on when to talk to a doctor
+Note line: A practical habit workbook, not medical advice.
+Imprint line: Cimple Books | www.cimpledigital.com/books
+(No "cure", "prevent", "reverse", or supplement claims. Counts will be confirmed against the finished interior.)
+
+======================================================================
+UPLOADS NEEDED TO RESUME
+======================================================================
+1. cover_memory-workbook.png (front) - generate first
+2. cover_memory-workbook_back.png - generate AFTER the front is accepted, attaching the front as reference
+(Spine: nothing to upload. Interior photos: none, this product uses no photographs.)
