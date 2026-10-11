@@ -1,0 +1,99 @@
+COVERFORGE PROMPTS: RAISING A SUPERHERO (Cimple Books)
+Product: parent-facing activity workbook, print-first (KDP paperback), 144 interior pages
+Slug: raising-a-superhero
+
+======================================================================
+WHAT TO GENERATE (2 images). Attach both to the chat to resume the build.
+======================================================================
+1. cover_raising-a-superhero.png        (front cover, 4K, portrait 7 x 10 in)
+2. cover_raising-a-superhero_back.png   (back cover art, 4K, attach the ACCEPTED front cover as a reference image)
+No spine upload is needed (see the spine note below).
+No interior photo sheets are needed (this is a text-and-worksheet workbook).
+
+----------------------------------------------------------------------
+1. FRONT COVER
+----------------------------------------------------------------------
+Expected filename: cover_raising-a-superhero.png
+Assigned cover style: #20 Sticker / Badge / Seal Design
+  Header font: Baloo 2 ExtraBold [chunky rounded display sans-serif]
+  Body font:   Cabin [humanist sans-serif]
+Why this style: the product is a value-driven workbook; a hero emblem badge carries the superhero idea
+without borrowing any real franchise's look, and badge callouts are the style's natural way to state
+"40 Simple Activities". Fit comes first; no other cover in this batch.
+
+PROMPT (paste as is):
+Design a sticker, badge and seal design cover page for a workbook titled "Raising a Superhero", subtitled "A Parent's Activity Workbook for Turning ADHD Traits into Strengths and Growing Your Patience". It should be 7 inches by 10 inches (17.8 cm x 25.4 cm), portrait orientation. Use the following colors only: #30A666, #56CB87, #F3F9F5, #FFFFFF. The cover should fill the entire image, with no background, no margins, no shadows, nothing else, just the cover page. A large, friendly, original hero emblem sits in the upper middle: a rounded shield-shaped badge with a simple five-point star at its center and a flowing ribbon swoosh behind it like a cape, drawn in flat shapes with clean edges and a subtle sticker-like outline. Two or three small round seal badges float near the emblem as supporting stickers, and one ribbon-shaped badge reads "40 Simple Activities". The mood is warm, encouraging and calm, not childish and not chaotic, aimed at a tired but hopeful parent. Render the title "Raising a Superhero" in bold display lettering with the character of Baloo 2 ExtraBold — chunky rounded display sans-serif — large and highly legible, in white on the green background, with the subtitle set in a style reminiscent of Cabin — humanist sans-serif — in smaller text beneath it. The author is Cimple Books (small text, footer, in a style reminiscent of Cabin), and include the web address www.cimpledigital.com/books. Do not use any colors outside the palette given. No stock-photo look, no watermarks, no extra text or icons beyond what's described, no recognizable comic or film characters, logos or costumes, and make sure all rendered text is spelled correctly. Render at the highest resolution available (4K). Keep every piece of text at least 12 mm inside all four edges, and let the background and edge artwork continue all the way to every edge so nothing important is lost if 3 mm is trimmed from each side.
+
+Text that must appear and be spelled exactly:
+  Raising a Superhero
+  A Parent's Activity Workbook for Turning ADHD Traits into Strengths and Growing Your Patience
+  40 Simple Activities
+  Cimple Books
+  www.cimpledigital.com/books
+
+Palette note: strictly the four brand colors. If the title or subtitle is hard to read on #30A666,
+you may re-run the prompt with "title in #FFFFFF on a #30A666 panel" or tell me which single extra accent
+you accept and I will add it to the back-cover prompt too so the two panels match.
+
+----------------------------------------------------------------------
+2. BACK COVER (print wrap)
+----------------------------------------------------------------------
+Expected filename: cover_raising-a-superhero_back.png
+Reference to attach when generating: the ACCEPTED front cover (cover_raising-a-superhero.png)
+
+PROMPT (paste as is, with the front cover attached):
+Design the back cover of a workbook to match the attached front cover exactly: the same sticker, badge and seal design illustration style, line weight, background and mood. It should be 7 inches by 10 inches (17.8 cm x 25.4 cm), portrait orientation, rendered at the highest resolution available (4K). Use the following colors only: #30A666, #56CB87, #F3F9F5, #FFFFFF. The artwork should fill the entire image, with no margins, no shadows, no mockup, just the flat back cover, with the background continuing to every edge. Scatter a few small star stickers and one small ribbon swoosh around the outer edges, fewer and smaller than on the front. Leave a large, clean, empty rounded panel in a single flat #F3F9F5 color covering roughly the central 70% of the width and the upper 60% of the height (text will be added later). Keep the bottom-right corner, an area about 2.25 inches wide by 1.45 inches tall, completely plain and light with no artwork (a barcode goes there). Keep every important element at least 12 mm inside all four edges. No text, letters, numbers, logos, barcodes or watermarks anywhere. Do not use any colors outside the palette given.
+
+----------------------------------------------------------------------
+SPINE
+----------------------------------------------------------------------
+Spine width = 144 pages x 0.002252 in (white paper) = 0.324 in (8.2 mm).
+That is under 12 mm, so NO spine prompt and NO upload is needed. The spine is built at composite time as a flat
+band in the front cover's dominant background color (sampled from the accepted art, or #30A666).
+Spine text: KDP allows spine text at 79+ pages, and 0.324 in leaves about 0.199 in between the safe edges,
+so the title "Raising a Superhero" (header font, top to bottom, about 9 pt) and "Cimple Books" will be typeset at composite time.
+
+----------------------------------------------------------------------
+WRAP SPECIFICATION (Amazon KDP paperback defaults; confirm in KDP's own cover calculator)
+----------------------------------------------------------------------
+Printer: Amazon KDP paperback          Paper: white
+Trim size: 7 x 10 in (178 x 254 mm)    Interior pages: 144 (even)
+Spine = 144 x 0.002252 = 0.3243 in (8.2 mm)
+Bleed = 0.125 in on every outer edge
+Full width  = 2 x 7 + 0.3243 + 0.25 = 14.5743 in (370.2 mm)  -> 4,372 px at 300 dpi
+Full height = 10 + 0.25 = 10.25 in (260.4 mm)                 -> 3,075 px at 300 dpi
+Front panel incl. bleed on 3 sides: 7.125 x 10.25 in           -> 2,138 x 3,075 px
+Safe margin: 0.125 in inside every trim edge and both spine edges; text 0.25 in or more inside
+Barcode zone: 2 in x 1.2 in, bottom-right of the back cover, 0.25 in from the trim edges (KDP adds the barcode)
+Front cover target: at least 2,138 x 3,075 px for a true 300 dpi; a 4K render should clear this.
+If the accepted front is smaller than that, I will report its effective dpi honestly and recommend a re-render.
+
+----------------------------------------------------------------------
+BACK-COVER TEXT TO BE TYPESET (correct the wording now if you want changes)
+----------------------------------------------------------------------
+Headline:
+  Their Biggest Challenges May Be Hiding Their Biggest Strengths.
+
+Blurb:
+  Intense focus. Endless energy. Racing ideas. Big feelings. Many kids with ADHD have traits that cause friction at home and could grow into real strengths. Raising a Superhero gives you simple things to do about it, plus a way to keep your own patience from running dry.
+
+Bullets:
+  - 40 simple missions to do together, mostly 10 to 20 minutes each, with little or no prep
+  - 8 modules: Deep Focus, Active Power, Spark Ideas, Big Heart, Wide Radar, Sidekick Systems, Learning Style, Allies and Comebacks
+  - A one-minute Guardian Pause in every mission to build your patience
+  - Ready-to-use phrases, a Patience Toolkit, a Phrase Bank, a 30-Day Tracker and a Wins Log
+
+Footer line (small):
+  Non-medical family activities. Not a substitute for professional advice.
+
+Imprint: Cimple Books  |  www.cimpledigital.com/books
+Series line: none
+
+----------------------------------------------------------------------
+NEXT STEP
+----------------------------------------------------------------------
+Attach both PNGs to the chat. When they are in, I will:
+  1. Check the front cover's pixel size and effective dpi.
+  2. Build the interior PDF (cover page 1 for the digital PDF; the print interior drops it without shifting pages).
+  3. Build the wrap-around cover (back | spine | front) at 300 dpi, plus a proof image.
+  4. Run the Phase 6b QA pass, then louda, prica and the Amazon KDP data sheet.
