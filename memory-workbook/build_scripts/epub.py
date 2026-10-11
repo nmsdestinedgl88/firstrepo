@@ -6,7 +6,7 @@ OUT = '/home/user/firstrepo/memory-workbook/'
 W = '/tmp/epubwork'; shutil.rmtree(W, ignore_errors=True); os.makedirs(W)
 # 1. cover-less ebook interior PDF
 core = [p for p in build.all_pages(ebook=True) if p['tag'] == 'core']
-bad, n = build.build(OUT + 'memory-workbook_ebook_interior_nocover.pdf', core, numbered=False)
+bad, n = build.build(OUT + 'memory-workbook_ebook_interior_nocover.pdf', core, numbered=True, skip_first=True)
 assert not bad, bad[:3]
 print('ebook interior pages', n)
 # 2. page images + text

@@ -15,7 +15,7 @@ WEEKS_OVERVIEW = [
  ('Week 6', 'Lock-In', 'The Daily Five'),
 ]
 
-def front_pages(ebook=False):
+def front_pages(ebook=False, ranges=None):
     pg = []
     # 1 title page
     f = [sp(70), P('A Six-Week Micro-Habit Programme', 'kicker'), P(TITLE, 'h1'), Rule(CW, 2.2, GREEN, after=10),
@@ -76,6 +76,10 @@ def front_pages(ebook=False):
     data = []
     for a, b in toc:
         if b == '': data.append([Paragraph('<b>%s</b>' % a, S['h2']), ''])
+        elif ebook and ranges is not None:
+            if a not in ranges: continue
+            lo, hi = ranges[a]
+            data.append([Paragraph(a, S['body']), Paragraph('Page %d' % lo if lo == hi else 'Pages %d to %d' % (lo, hi), ParagraphStyle('r', parent=S['body'], alignment=2))])
         else: data.append([Paragraph(a, S['body']), Paragraph('' if ebook else b, ParagraphStyle('r', parent=S['body'], alignment=2))])
     t = Table(data, colWidths=[CW*0.68, CW*0.32])
     t.setStyle(TableStyle([('FONTNAME',(0,0),(-1,-1),'Body'),('LINEBELOW',(0,0),(-1,-1),0.5,RULE),('TOPPADDING',(0,0),(-1,-1),2.5),('BOTTOMPADDING',(0,0),(-1,-1),2.5),

@@ -9,7 +9,7 @@ bad, n = build.build(OUT + 'memory-workbook_interior_print.pdf', pages)
 assert not bad and n == 128, (bad[:3], n)
 # 2. ebook edition: core pages only, TOC without page numbers, cover first
 core = [p for p in build.all_pages(ebook=True) if p['tag'] == 'core']
-bad2, n2 = build.build('/tmp/ebook_body.pdf', core, numbered=False)
+bad2, n2 = build.build('/tmp/ebook_body.pdf', core, numbered=True, skip_first=True)
 assert not bad2
 # cover page (trim art to 8.5x11 ratio)
 im = Image.open(OUT + 'cover_memory-workbook.png').convert('RGB')
