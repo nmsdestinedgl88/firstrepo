@@ -9,7 +9,7 @@
 | Interior | `memory-workbook_interior_print.pdf` | 128 pages, US letter (8.5 x 11 in), fonts embedded, **no cover page** (KDP takes the cover as a separate file) |
 | Cover | `cover_memory-workbook_wrap.pdf` | Back + spine + front, 17.54 x 11.25 in, built for 128 pages on white paper (spine 0.288 in) |
 | Cover proof | `cover_memory-workbook_wrap_proof.png` | Trim, safe-margin, spine and barcode-zone overlay (internal use) |
-| Ebook | **not ready** | `memory-workbook_ebook.pdf` is a PDF. KDP ebooks need EPUB, KPF or DOCX. See *Kindle Ebook* below. |
+| Ebook | `memory-workbook_fixedlayout.epub` | Fixed-layout EPUB 3, 85 page images, no cover (upload the front cover separately). Passes epubcheck with no messages. Page text is not selectable (images with alt text). CHECK how KDP's previewer renders it. `memory-workbook_ebook_interior_nocover.pdf` is the matching PDF for other converters. |
 
 > **Cover resolution warning:** the accepted front and back art is 1,562 x 2,000 px, which is about **178 dpi** at wrap size (below 200 dpi). KDP may warn about it. Re-render both at 4K and rebuild the wrap before relying on it for print. **CHECK** KDP's cover upload validator.
 
@@ -80,9 +80,9 @@ Category names are from general knowledge of Amazon's structure and need confirm
 | Expanded Distribution | **CHECK** eligibility for this trim and ink in KDP |
 | Interior colour note | The interior uses green tints and header bands; on a black-and-white print these turn to greys. **CHECK** the KDP previewer. |
 
-### Kindle ebook (not yet ready)
+### Kindle ebook
 
-- **Format:** the interior is fillable and pages are fixed-layout, so a reflowable ebook is a poor fit. A fixed-layout KPF or EPUB would need to be produced (for example with Kindle Create); the PDF cannot be uploaded as the ebook file.
+- **Format:** the interior is fillable and pages are fixed-layout, so a reflowable ebook is a poor fit. A fixed-layout EPUB is provided (`memory-workbook_fixedlayout.epub`). **CHECK** that KDP accepts it for this title type and how it previews on Kindle devices; readers cannot type into it, so the ebook works as a printable or tablet-annotation version.
 - **KDP Select:** recommended **out**, so the ebook can also go to Apple Books through an aggregator. **CHECK** the current Select terms.
 - **DRM:** off (the product is a workbook meant to be used, not copied). **CHECK**.
 - **Royalty plan and price band:** 70% requires a price from $2.99 to $12.99 ([KDP help, verified for this run](https://kdp.amazon.com/en_US/help/topic/G200634560)); the recommended $7.99 qualifies.
@@ -120,4 +120,4 @@ Headline: *Forgot Why You Walked Into the Room?* Blurb and five bullets as print
 - [x] Bibliographic details of the 11 cited sources checked against PubMed, publisher or university records (the 9 journal articles by search; the two books, Fogg 2020 and Schacter 2001, were not looked up)
 - [ ] Have a qualified person review the doctor page and the plain-language summaries of the studies
 - [ ] Order a KDP proof copy and check the greys and the spine
-- [ ] Produce a fixed-layout ebook file before listing the Kindle edition
+- [ ] Preview the fixed-layout EPUB in KDP's online previewer before listing the Kindle edition

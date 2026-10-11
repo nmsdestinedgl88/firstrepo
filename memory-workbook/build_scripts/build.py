@@ -6,7 +6,7 @@ import content_front, content_weeks, content_back
 def all_pages(ebook=False):
     pg = content_front.front_pages(ebook)
     for n in range(1, 7): pg += content_weeks.week_pages(n)
-    pg += content_back.back_pages()
+    pg += content_back.back_pages(ebook)
     return pg
 
 def build(path, pages, numbered=True):

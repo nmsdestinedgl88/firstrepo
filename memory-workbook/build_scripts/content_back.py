@@ -24,7 +24,7 @@ def menu_page(title, kicker, pillar, items):
     f += [t]
     return page('Tiny Habits Menu', f)
 
-def back_pages():
+def back_pages(ebook=False):
     pg = []
     # 98-99 final self-check
     f = H('Your Final Self-Check', 'Part One: Everyday Memory Questionnaire')
@@ -43,7 +43,7 @@ def back_pages():
     pg.append(page('Final Self-Check', f))
     # 100-101 compare
     f = H('Compare And Reflect', 'Then And Now')
-    f += [P('Fill in the first two columns from your baseline pages (8 and 9) and your final self-check (98 and 99). A lower questionnaire score and a higher recall score both suggest improvement, but treat the numbers as a conversation starter rather than a verdict. Day-to-day variation is normal.')]
+    f += [P('Fill in the first two columns from your baseline self-check at the start of the workbook and your final self-check. A lower questionnaire score and a higher recall score both suggest improvement, but treat the numbers as a conversation starter rather than a verdict. Day-to-day variation is normal.')]
     f += Grid(['Measure', 'Baseline', 'Final', 'Change'], 4, [3.2, 1.2, 1.2, 1.2], rowh=36,
               first=['Questionnaire total (0-36, lower is fewer slips)', 'Ten-word recall (out of 10)', 'Items recalled from yesterday', 'How easy yesterday&rsquo;s recall felt (1-5)'])
     f += Callout('Reading Your Results', ['A difference of one or two points is within normal day-to-day variation, so do not over-read it. Look at the whole picture: slips, effort, mood and confidence.', 'If your numbers got worse, or you feel concerned, consider the doctor page again. Habits help, but they are not a substitute for a check-up.'])
