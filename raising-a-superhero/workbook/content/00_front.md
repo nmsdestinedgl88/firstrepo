@@ -55,13 +55,29 @@ This book works best in small bites. Here is the rhythm that suits most families
 
 **Use the back of the book.** The Patience Toolkit, Phrase Bank, 30-Day Mission Tracker and Wins Log are there to be used between missions. Flip to them whenever you need them.
 
-Words you will see again and again:
+## QUICKSTART | Quick Start: Where to Begin
+You do not have to start at page one. Choose the doorway that matches your hardest moment right now, and begin there.
 
-- **Power:** the trait, seen from its strong side.
-- **Pressure Point:** the place where the trait causes friction.
-- **Sidekick Tool:** a simple strategy that helps.
-- **Mission:** the activity.
-- **Guardian Pause:** your patience move.
+TABLE
+If This Is Your Hardest Part | Start With | First Mission
+Mornings and getting out the door | Module 6: Sidekick Systems | 6.1 The Morning Mission Board
+Meltdowns and big feelings | Module 4: Big Heart | 4.1 Feelings Weather Report
+Homework battles | Module 7: Learning Style | 7.2 The Homework Launch
+Stopping a favourite activity | Module 1: Deep Focus | 1.3 The Gentle Landing
+Too much energy at the wrong moment | Module 2: Active Power | 2.2 Move, Then Think
+Friendships and confidence | Module 8: Allies and Comebacks | 8.4 The Brag Board
+ENDTABLE
+
+**If you only have ten minutes this week,** try one of these five starter missions: 1.1 The Interest Inventory, 1.3 The Gentle Landing, 4.1 Feelings Weather Report, 6.1 The Morning Mission Board or 8.4 The Brag Board. Each one is small, and each one gives you something to build on.
+
+**A gentle four-week pace:**
+
+- **Week 1:** Fill in My Hero's Profile and My Guardian Baseline. Try one starter mission.
+- **Week 2:** Do two missions from the module you chose. Use a Guardian Pause each time.
+- **Week 3:** Do two more, then complete that module's Debrief.
+- **Week 4:** Pick the next module, or repeat the missions that worked best.
+
+Slow is fine. A mission done twice, calmly, is worth more than five rushed ones.
 
 ## FRAMEWORK | The Hero Framework
 Every module in this book follows the same simple shape. Learn it once and the rest of the book gets easier.
@@ -79,6 +95,9 @@ ENDTABLE
 Why this shape? Because it keeps you out of two traps. One trap is only seeing the problems. The other is pretending there are none. The Hero Framework asks you to hold both at once: this trait is a gift in one setting and a struggle in another, and your job is to help your child tell the difference.
 
 You do not need to get it right the first time. You just need to try something small, watch what happens and adjust.
+
+PROMPT: Try it now. Write one trait you see in your child right now, its strong side and where it trips you both up.
+LINES: 4
 
 ## PROFILE | My Hero's Profile
 FIELDS

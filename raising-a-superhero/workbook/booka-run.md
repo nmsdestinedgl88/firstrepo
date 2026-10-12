@@ -1,7 +1,7 @@
 # Booka Run: Raising a Superhero
 
 Run type: single-product build from an existing scout report (the user supplied the concept and the report). Date: 2026-10-11.
-Status: **paused at Phase 6a** for the cover uploads. Manuscript is drafted and committed.
+Status: **built and QA-checked.** Covers received, interior and wrap built, marketing, pricing and KDP data sheet written. Paperback is ready to list after the CHECK items; the Kindle ebook file is not built.
 
 ## 1. What was and was not re-run
 
@@ -10,8 +10,9 @@ Status: **paused at Phase 6a** for the cover uploads. Manuscript is drafted and 
 | 1a applescout + kindlescout | Done earlier in this session (`../market-report.md`, `../raising-a-superhero-market-scout.xlsx`). Fallback access mode, single snapshot, confidence medium-low. Not re-run. |
 | 1b ten-marketplace loop | **Not run.** Scoped out because the user directed the build from the report. Etsy, Gumroad, TPT and the rest are unexamined, so the product has no off-store demand evidence. |
 | 2 to 6 | Run for this one concept below. |
-| 6a covers | Prompts written. **Paused.** |
-| 6, 6b, 7, 8, 9 | Pending the cover uploads. |
+| 6a covers | Prompts written; both covers received and accepted (front and back). |
+| 6, 6b | Interior PDF and wrap built; QA pass run (below). |
+| 7, 8, 9 | `marketing/louda_*`, `marketing/prica_*` and `amazon_kdp_metadata_raising-a-superhero.md` written. |
 
 ## 2. Fit score (Phase 2)
 
@@ -70,13 +71,13 @@ Composite judgment: demand evidence moderate (indie print BSR 5.3k to 20k); gap 
 |---|---|
 | Audience | Parents of children roughly 5 to 12 with ADHD; non-medical |
 | Trim and pages | 7 x 10 in, 144 interior pages |
-| Structure | 8 front pages, 8 modules x 14 pages (112), 24 back pages |
+| Structure | 9 front pages (incl. a Quick Start page), 8 modules x 14 pages (112), 23 back pages = 144. Mission spreads face each other (left instructions, right notes) |
 | Modules | 1 Deep Focus, 2 Active Power, 3 Spark Ideas, 4 Big Heart, 5 Wide Radar, 6 Sidekick Systems, 7 Learning Style, 8 Allies and Comebacks |
 | Missions | 40 (5 per module), each a two-page spread: instructions left, fill-in right |
 | Module shape | 2 opener pages, 10 mission pages, 2 debrief pages |
-| Back matter | Patience Toolkit (6), Phrase Bank (4), 30-Day Tracker (6), Strengths Bank and Wins Log (4), Notes (2), closing letter (1), support page (1) |
+| Back matter | Patience Toolkit (6), Phrase Bank (4), 30-Day Tracker (6), Strengths Bank and Wins Log (4), Notes (1), closing letter (1), support page (1) |
 | Words | about 18,000 in the manuscript, plus builder-generated fill-in fields |
-| Brand | Cimple Books; www.cimpledigital.com/books; palette #30A666, #56CB87, #F3F9F5, #FFFFFF; body text 13 pt |
+| Brand | Cimple Books; www.cimpledigital.com/books; palette #30A666, #56CB87, #F3F9F5, #FFFFFF; body text 12.5 pt Cabin (the 13 pt A4 spec scaled to a 7 x 10 in trim), headings Baloo 2 ExtraBold |
 | Graphics | Black-and-white interior; icon labels for the six framework steps; mission ribbon (time, what you need); checkbox "Notice" lists; rating dots; pull-out Guardian Reset Cards; tracker grids; no stock images, no recognisable characters |
 | Cover | AI-illustrated via coverforge, style #20 Sticker / Badge / Seal; AI-generated art must be disclosed to KDP |
 
@@ -100,11 +101,31 @@ Composite judgment: demand evidence moderate (indie print BSR 5.3k to 20k); gap 
 - No claims beyond the copyright-page notice and the support page.
 - Back-cover text matches the finished contents (40 missions, 8 modules, 144 pages).
 
-## 10. Resume checklist
+## 10. Build results and QA (Phase 6b)
 
-1. You generate `cover_raising-a-superhero.png`, then `cover_raising-a-superhero_back.png` (with the front attached), and attach both here. Prompts are in `cover_prompts.txt`.
-2. I check the covers and build the interior PDF and the wrap.
-3. QA pass, then louda, prica and the Amazon KDP data sheet.
+| Check | Result |
+|---|---|
+| Page count | 144 interior pages, 504 x 720 pt (7 x 10 in); digital PDF is the same plus the cover (145) |
+| Header capitalisation | 1,466 header strings checked in code; 0 not title-cased (every word capitalised, as the QA rule reads) |
+| Header overrun | No header runs past the content width; three long titles wrap to two lines by design. Band titles auto-shrink; visual check of all 144 pages by contact sheet |
+| Content volume | Median page is 100% filled to the layout area. Below 80%: Notice (58%, legal page), Welcome (79%) and four module trait-map pages (79%). Fill-in pages stretch their writing lines |
+| Type size | One body size throughout (12.5 pt); no page needed shrinking |
+| Edge safety | Rendered every page: no ink within 0.2 in of any edge, so the paperback uses no bleed |
+| Text leaks | No markup or placeholder text in the extracted PDF text |
+| Cover | Front passed inspection. Back cover had text baked in despite the prompt: its imprint line overlapped KDP's barcode zone, so it was patched out and retypeset; art is about 195 dpi at placed size |
+
+## 11. Deliverables
+
+| File | What |
+|---|---|
+| `build/out/raising-a-superhero_print_interior.pdf` | 144-page print interior (upload to KDP) |
+| `build/out/raising-a-superhero_digital.pdf` | cover plus interior (digital reading and sharing) |
+| `build/out/cover_raising-a-superhero_wrap.pdf` / `.png` / `_proof.png` | wrap-around cover at 300 dpi and a labelled proof |
+| `covers/` | the two accepted cover images |
+| `marketing/louda_raising-a-superhero.docx` and `louda_prompts_*.txt` | Reels, character and 10 Flow prompts |
+| `marketing/prica_raising-a-superhero.docx` | pricing guide, Naira primary |
+| `amazon_kdp_metadata_raising-a-superhero.md` | paste-ready KDP sheet |
+| `build/build_book.py`, `build/build_wrap.py` | reproducible builders (fonts in `build/fonts`, SIL Open Font License) |
 
 ## Open items and honest caveats
 
@@ -112,3 +133,5 @@ Composite judgment: demand evidence moderate (indie print BSR 5.3k to 20k); gap 
 - The title is unchecked on KDP and for trademarks. A search found no exact "Raising a Superhero" ADHD title, but that was one search.
 - Activities are practical ideas drawn from common family practice; none is clinically validated and none is presented as such.
 - The manuscript has had one editing pass for tone and claims, not a full human read-aloud edit.
+- The manuscript text was written by an AI model, so KDP's AI-generated text disclosure applies.
+- No Kindle ebook file exists yet; do not upload the print PDF as the ebook.

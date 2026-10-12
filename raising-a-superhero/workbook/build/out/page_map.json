@@ -1,0 +1,859 @@
+[
+ {
+  "page": 2,
+  "key": "NOTICE",
+  "scale": 1.0,
+  "fill": 0.58
+ },
+ {
+  "page": 3,
+  "key": "CONTENTS",
+  "scale": 1.0
+ },
+ {
+  "page": 4,
+  "key": "WELCOME",
+  "scale": 1.0,
+  "fill": 0.79
+ },
+ {
+  "page": 5,
+  "key": "HOWTO",
+  "scale": 1.0,
+  "fill": 0.8
+ },
+ {
+  "page": 6,
+  "key": "QUICKSTART",
+  "scale": 1.0,
+  "fill": 0.94
+ },
+ {
+  "page": 7,
+  "key": "FRAMEWORK",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 8,
+  "key": "PROFILE",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 9,
+  "key": "BASELINE",
+  "scale": 1.0,
+  "fill": 0.81
+ },
+ {
+  "page": 10,
+  "key": "M1-O1",
+  "scale": 1.0,
+  "fill": 0.98
+ },
+ {
+  "page": 11,
+  "key": "M1-O2",
+  "scale": 1.0,
+  "fill": 0.83
+ },
+ {
+  "page": 12,
+  "key": "M1-1.1L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 13,
+  "key": "M1-1.1R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 14,
+  "key": "M1-1.2L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 15,
+  "key": "M1-1.2R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 16,
+  "key": "M1-1.3L",
+  "scale": 1.0,
+  "fill": 0.89
+ },
+ {
+  "page": 17,
+  "key": "M1-1.3R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 18,
+  "key": "M1-1.4L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 19,
+  "key": "M1-1.4R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 20,
+  "key": "M1-1.5L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 21,
+  "key": "M1-1.5R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 22,
+  "key": "M1-D1",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 23,
+  "key": "M1-D2",
+  "scale": 1.0,
+  "fill": 0.94
+ },
+ {
+  "page": 24,
+  "key": "M2-O1",
+  "scale": 1.0,
+  "fill": 0.93
+ },
+ {
+  "page": 25,
+  "key": "M2-O2",
+  "scale": 1.0,
+  "fill": 0.79
+ },
+ {
+  "page": 26,
+  "key": "M2-2.1L",
+  "scale": 1.0,
+  "fill": 0.89
+ },
+ {
+  "page": 27,
+  "key": "M2-2.1R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 28,
+  "key": "M2-2.2L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 29,
+  "key": "M2-2.2R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 30,
+  "key": "M2-2.3L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 31,
+  "key": "M2-2.3R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 32,
+  "key": "M2-2.4L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 33,
+  "key": "M2-2.4R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 34,
+  "key": "M2-2.5L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 35,
+  "key": "M2-2.5R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 36,
+  "key": "M2-D1",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 37,
+  "key": "M2-D2",
+  "scale": 1.0,
+  "fill": 0.94
+ },
+ {
+  "page": 38,
+  "key": "M3-O1",
+  "scale": 1.0,
+  "fill": 0.89
+ },
+ {
+  "page": 39,
+  "key": "M3-O2",
+  "scale": 1.0,
+  "fill": 0.81
+ },
+ {
+  "page": 40,
+  "key": "M3-3.1L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 41,
+  "key": "M3-3.1R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 42,
+  "key": "M3-3.2L",
+  "scale": 1.0,
+  "fill": 0.89
+ },
+ {
+  "page": 43,
+  "key": "M3-3.2R",
+  "scale": 1.0,
+  "fill": 0.97
+ },
+ {
+  "page": 44,
+  "key": "M3-3.3L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 45,
+  "key": "M3-3.3R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 46,
+  "key": "M3-3.4L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 47,
+  "key": "M3-3.4R",
+  "scale": 1.0,
+  "fill": 0.97
+ },
+ {
+  "page": 48,
+  "key": "M3-3.5L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 49,
+  "key": "M3-3.5R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 50,
+  "key": "M3-D1",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 51,
+  "key": "M3-D2",
+  "scale": 1.0,
+  "fill": 0.94
+ },
+ {
+  "page": 52,
+  "key": "M4-O1",
+  "scale": 1.0,
+  "fill": 0.84
+ },
+ {
+  "page": 53,
+  "key": "M4-O2",
+  "scale": 1.0,
+  "fill": 0.79
+ },
+ {
+  "page": 54,
+  "key": "M4-4.1L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 55,
+  "key": "M4-4.1R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 56,
+  "key": "M4-4.2L",
+  "scale": 1.0,
+  "fill": 0.86
+ },
+ {
+  "page": 57,
+  "key": "M4-4.2R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 58,
+  "key": "M4-4.3L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 59,
+  "key": "M4-4.3R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 60,
+  "key": "M4-4.4L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 61,
+  "key": "M4-4.4R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 62,
+  "key": "M4-4.5L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 63,
+  "key": "M4-4.5R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 64,
+  "key": "M4-D1",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 65,
+  "key": "M4-D2",
+  "scale": 1.0,
+  "fill": 0.94
+ },
+ {
+  "page": 66,
+  "key": "M5-O1",
+  "scale": 1.0,
+  "fill": 0.87
+ },
+ {
+  "page": 67,
+  "key": "M5-O2",
+  "scale": 1.0,
+  "fill": 0.79
+ },
+ {
+  "page": 68,
+  "key": "M5-5.1L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 69,
+  "key": "M5-5.1R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 70,
+  "key": "M5-5.2L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 71,
+  "key": "M5-5.2R",
+  "scale": 1.0,
+  "fill": 0.97
+ },
+ {
+  "page": 72,
+  "key": "M5-5.3L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 73,
+  "key": "M5-5.3R",
+  "scale": 1.0,
+  "fill": 0.97
+ },
+ {
+  "page": 74,
+  "key": "M5-5.4L",
+  "scale": 1.0,
+  "fill": 0.97
+ },
+ {
+  "page": 75,
+  "key": "M5-5.4R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 76,
+  "key": "M5-5.5L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 77,
+  "key": "M5-5.5R",
+  "scale": 1.0,
+  "fill": 0.97
+ },
+ {
+  "page": 78,
+  "key": "M5-D1",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 79,
+  "key": "M5-D2",
+  "scale": 1.0,
+  "fill": 0.94
+ },
+ {
+  "page": 80,
+  "key": "M6-O1",
+  "scale": 1.0,
+  "fill": 0.84
+ },
+ {
+  "page": 81,
+  "key": "M6-O2",
+  "scale": 1.0,
+  "fill": 0.79
+ },
+ {
+  "page": 82,
+  "key": "M6-6.1L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 83,
+  "key": "M6-6.1R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 84,
+  "key": "M6-6.2L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 85,
+  "key": "M6-6.2R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 86,
+  "key": "M6-6.3L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 87,
+  "key": "M6-6.3R",
+  "scale": 1.0,
+  "fill": 0.97
+ },
+ {
+  "page": 88,
+  "key": "M6-6.4L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 89,
+  "key": "M6-6.4R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 90,
+  "key": "M6-6.5L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 91,
+  "key": "M6-6.5R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 92,
+  "key": "M6-D1",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 93,
+  "key": "M6-D2",
+  "scale": 1.0,
+  "fill": 0.94
+ },
+ {
+  "page": 94,
+  "key": "M7-O1",
+  "scale": 1.0,
+  "fill": 0.93
+ },
+ {
+  "page": 95,
+  "key": "M7-O2",
+  "scale": 1.0,
+  "fill": 0.81
+ },
+ {
+  "page": 96,
+  "key": "M7-7.1L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 97,
+  "key": "M7-7.1R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 98,
+  "key": "M7-7.2L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 99,
+  "key": "M7-7.2R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 100,
+  "key": "M7-7.3L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 101,
+  "key": "M7-7.3R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 102,
+  "key": "M7-7.4L",
+  "scale": 1.0,
+  "fill": 0.86
+ },
+ {
+  "page": 103,
+  "key": "M7-7.4R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 104,
+  "key": "M7-7.5L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 105,
+  "key": "M7-7.5R",
+  "scale": 1.0,
+  "fill": 0.97
+ },
+ {
+  "page": 106,
+  "key": "M7-D1",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 107,
+  "key": "M7-D2",
+  "scale": 1.0,
+  "fill": 0.94
+ },
+ {
+  "page": 108,
+  "key": "M8-O1",
+  "scale": 1.0,
+  "fill": 0.86
+ },
+ {
+  "page": 109,
+  "key": "M8-O2",
+  "scale": 1.0,
+  "fill": 0.85
+ },
+ {
+  "page": 110,
+  "key": "M8-8.1L",
+  "scale": 1.0,
+  "fill": 0.86
+ },
+ {
+  "page": 111,
+  "key": "M8-8.1R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 112,
+  "key": "M8-8.2L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 113,
+  "key": "M8-8.2R",
+  "scale": 1.0,
+  "fill": 0.97
+ },
+ {
+  "page": 114,
+  "key": "M8-8.3L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 115,
+  "key": "M8-8.3R",
+  "scale": 1.0,
+  "fill": 0.97
+ },
+ {
+  "page": 116,
+  "key": "M8-8.4L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 117,
+  "key": "M8-8.4R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 118,
+  "key": "M8-8.5L",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 119,
+  "key": "M8-8.5R",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 120,
+  "key": "M8-D1",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 121,
+  "key": "M8-D2",
+  "scale": 1.0,
+  "fill": 0.94
+ },
+ {
+  "page": 122,
+  "key": "PT-1",
+  "scale": 1.0,
+  "fill": 0.87
+ },
+ {
+  "page": 123,
+  "key": "PT-2",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 124,
+  "key": "PT-3",
+  "scale": 1.0,
+  "fill": 0.91
+ },
+ {
+  "page": 125,
+  "key": "PT-4",
+  "scale": 1.0,
+  "fill": 0.85
+ },
+ {
+  "page": 126,
+  "key": "PT-5",
+  "scale": 1.0,
+  "fill": 0.89
+ },
+ {
+  "page": 127,
+  "key": "PT-6",
+  "scale": 1.0,
+  "fill": 0.95
+ },
+ {
+  "page": 128,
+  "key": "PB-1",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 129,
+  "key": "PB-2",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 130,
+  "key": "PB-3",
+  "scale": 1.0,
+  "fill": 0.8
+ },
+ {
+  "page": 131,
+  "key": "PB-4",
+  "scale": 1.0,
+  "fill": 0.91
+ },
+ {
+  "page": 132,
+  "key": "TRACK-1",
+  "scale": 1.0,
+  "fill": 0.97
+ },
+ {
+  "page": 133,
+  "key": "TRACK-2",
+  "scale": 1.0,
+  "fill": 0.85
+ },
+ {
+  "page": 134,
+  "key": "TRACK-3",
+  "scale": 1.0,
+  "fill": 0.85
+ },
+ {
+  "page": 135,
+  "key": "TRACK-4",
+  "scale": 1.0,
+  "fill": 0.85
+ },
+ {
+  "page": 136,
+  "key": "TRACK-5",
+  "scale": 1.0,
+  "fill": 0.85
+ },
+ {
+  "page": 137,
+  "key": "TRACK-6",
+  "scale": 1.0,
+  "fill": 0.85
+ },
+ {
+  "page": 138,
+  "key": "WINS-1",
+  "scale": 1.0,
+  "fill": 0.9
+ },
+ {
+  "page": 139,
+  "key": "WINS-2",
+  "scale": 1.0,
+  "fill": 0.83
+ },
+ {
+  "page": 140,
+  "key": "WINS-3",
+  "scale": 1.0,
+  "fill": 0.9
+ },
+ {
+  "page": 141,
+  "key": "WINS-4",
+  "scale": 1.0,
+  "fill": 0.83
+ },
+ {
+  "page": 142,
+  "key": "NOTES-1",
+  "scale": 1.0,
+  "fill": 1.0
+ },
+ {
+  "page": 143,
+  "key": "CLOSING",
+  "scale": 1.0,
+  "fill": 0.83
+ },
+ {
+  "page": 144,
+  "key": "SUPPORT",
+  "scale": 1.0,
+  "fill": 0.87
+ }
+]

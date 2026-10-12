@@ -97,9 +97,16 @@ Instead of | Try
 "What is wrong with you?" | "Something is bothering you. Can you show me?"
 "Calm down!" | "I'm here. Let's take a breath together."
 "Why did you do that?" | "What were you hoping would happen?"
+"You always do this." | "That was hard this time. What would make it easier?"
+"Don't be so dramatic." | "That feels big to you. Tell me about it."
+"Why can't you be more like your sister?" | "Everyone is good at different things. What are you good at today?"
+"Because I said so." | "Here's the reason, and here's what happens next."
 ENDTABLE
 
-## PB-2 | Phrase Bank: Transitions and Instructions
+PROMPT: Swaps I want to try this week, in my own words:
+LINES: 3
+
+## PB-2 | Phrase Bank: Everyday Moments
 Short, clear and calm works best for most kids. Say it once, make eye contact and give a moment to respond.
 
 TABLE
@@ -112,7 +119,13 @@ Before a tricky situation | "Here's what will happen. Here's what I'd like you t
 When they are stuck | "Do you want help, or do you want me to stay close?"
 After a mistake | "Everyone makes mistakes. What can we learn from this one?"
 At bedtime | "Today was hard and also you did some good things. Tell me one."
+When they are upset | "I can see this is big. I'm here."
+When you need cooperation | "I need your help with one thing. Can you do it now or in two minutes?"
+When you are running low | "I need a minute to calm down so I can listen properly."
 ENDTABLE
+
+PROMPT: The three phrases I will try first:
+LINES: 2
 
 ## PB-3 | Phrase Bank: Praise That Sticks
 Specific praise tells your child exactly what to do again. It sounds like noticing, not grading. Try describing the action, then naming the strength.
@@ -169,26 +182,23 @@ DAYS: 26-30
 This is where you collect evidence of your child's strengths, with real examples. On a hard day, read it. It is proof that the good stuff is real.
 
 LOG: Strength | The Moment I Saw It | Date
-ROWS: 9
+ROWS: 11
 
 ## WINS-2 | Strengths Bank, Continued
 LOG: Strength | The Moment I Saw It | Date
-ROWS: 9
+ROWS: 11
 
 ## WINS-3 | Wins Log
 Big or small, write down the wins. Finishing a page, staying calm for a minute and saying sorry all count. Include your own.
 
 LOG: Date | The Win | Why It Mattered
-ROWS: 9
+ROWS: 11
 
 ## WINS-4 | Wins Log, Continued
 LOG: Date | The Win | Why It Mattered
-ROWS: 9
+ROWS: 11
 
 ## NOTES-1 | Notes
-LINES: 22
-
-## NOTES-2 | Notes
 LINES: 22
 
 ## CLOSING | Keep Going, Hero Guardian
@@ -203,7 +213,11 @@ Your child is not a problem to be solved. They are a person to be understood, an
 Thank you for letting this book walk beside you for a while.
 
 With respect and good wishes,
-Cimple Books
+
+**Cimple Books**
+
+PROMPT: My Hero Guardian pledge. Write one promise to yourself and one to your child.
+LINES: 4
 
 ## SUPPORT | Support and Next Steps
 This workbook is a companion, not a substitute for professional guidance. You do not have to do this alone.
