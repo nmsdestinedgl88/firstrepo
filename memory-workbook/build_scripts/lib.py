@@ -83,20 +83,34 @@ def Callout(title, text, w=None):
     return [t, sp(9)]
 
 class Fld(Flowable):
-    """Label with n ruled writing lines beneath it."""
+    """Label (wrapped if long) with n ruled writing lines beneath it."""
     def __init__(self, label, lines=1, lh=22, w=None, hint=None):
         super().__init__(); self.label=label; self.lines=lines; self.lh=lh; self.w=w or CW; self.hint=hint
-    def wrap(self, aw, ah): self.h = 17 + self.lines*self.lh + 5; return (self.w, self.h)
-    def draw(self):
-        c = self.canv
-        c.setFont('Body-B', 12); c.setFillColor(INK); c.drawString(0, self.h-12, self.label)
+    def wrap(self, aw, ah):
+        from reportlab.lib.utils import simpleSplit
+        from reportlab.pdfbase.pdfmetrics import stringWidth
+        self.ll = simpleSplit(self.label, 'Body-B', 12, self.w)
+        self.hint_inline = False
         if self.hint:
-            lw = c.stringWidth(self.label, 'Body-B', 12)
-            c.setFont('Body-I', 10.5); c.setFillColor(GREY); c.drawString(lw+6, self.h-12, self.hint)
+            if stringWidth(self.ll[-1], 'Body-B', 12) + 6 + stringWidth(self.hint, 'Body-I', 10.5) <= self.w: self.hint_inline = True
+            else: self.ll = self.ll + ['\x00' + self.hint]
+        self.h = 5 + 15 * len(self.ll) + 2 + self.lines * self.lh
+        return (self.w, self.h)
+    def draw(self):
+        c = self.canv; y = self.h - 12
+        for i, t in enumerate(self.ll):
+            if t.startswith('\x00'):
+                c.setFont('Body-I', 10.5); c.setFillColor(GREY); c.drawString(0, y, t[1:])
+            else:
+                c.setFont('Body-B', 12); c.setFillColor(INK); c.drawString(0, y, t)
+                if self.hint_inline and i == len(self.ll) - 1:
+                    c.setFont('Body-I', 10.5); c.setFillColor(GREY); c.drawString(c.stringWidth(t, 'Body-B', 12) + 6, y, self.hint)
+            y -= 15
         c.setStrokeColor(RULE); c.setLineWidth(0.8)
+        top = self.h - 15 * len(self.ll) - 2
         for i in range(self.lines):
-            y = self.h - 17 - (i+1)*self.lh + 6
-            c.line(0, y, self.w, y)
+            yy = top - (i + 1) * self.lh + 6
+            c.line(0, yy, self.w, yy)
 
 class FillLines(Flowable):
     """Ruled lines filling all remaining height of the page frame."""
@@ -137,16 +151,18 @@ class Scale(Flowable):
         super().__init__(); self.label=label; self.n=n; self.low=low; self.high=high; self.w=w or CW
     def wrap(self, aw, ah): return (self.w, 27)
     def draw(self):
+        from reportlab.pdfbase.pdfmetrics import stringWidth
         c = self.canv; c.setFont('Body-B', 12); c.setFillColor(INK); c.drawString(0, 12, self.label)
-        x0 = self.w - 6 - self.n*30 - 70 - 70 + 70
-        x = self.w - self.n*30 - 40
+        hw = stringWidth(self.high, 'Body-I', 10); lw = stringWidth(self.low, 'Body-I', 10)
+        x = self.w - hw - 6 - self.n * 30 - 2
+        assert stringWidth(self.label, 'Body-B', 12) + 10 < x - 8 - lw, ('Scale label too long', self.label)
         c.setFont('Body-I', 10); c.setFillColor(GREY)
         c.drawRightString(x - 8, 12, self.low)
         for i in range(self.n):
-            cx = x + i*30 + 12
+            cx = x + i * 30 + 12
             c.setStrokeColor(GREEN); c.setLineWidth(1.2); c.setFillColor(WHITE); c.circle(cx, 14, 10.5, stroke=1, fill=1)
-            c.setFillColor(GREY); c.setFont('Body', 10.5); c.drawCentredString(cx, 10.5, str(i+1))
-        c.setFont('Body-I', 10); c.setFillColor(GREY); c.drawString(x + self.n*30 + 4, 12, self.high)
+            c.setFillColor(GREY); c.setFont('Body', 10.5); c.drawCentredString(cx, 10.5, str(i + 1))
+        c.setFont('Body-I', 10); c.setFillColor(GREY); c.drawRightString(self.w, 12, self.high)
 
 def Grid(headers, nrows, widths, rowh=24, first=None, font=11.5, hdrh=None):
     """Fillable table. first: list of first-column labels (optional)."""
